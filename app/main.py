@@ -37,7 +37,7 @@ def main():
         logger.info("HOSTED_ZONE_ID environment variable is not set. Exiting...")
         exit()
 
-    Route53().add_cname("app.soleraitalia.it","vip-rms-italy-prod-eudc01.soleracloud.com")    
+    Route53().add_cname("app.italia.it","vip-prod.cloud.com")    
 
 if __name__ == "__main__":
     main()
