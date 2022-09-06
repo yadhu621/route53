@@ -1,7 +1,7 @@
 # How to run 
 ```
 route53> ./venv/Scripts/activate
-(venv) route53> pip install -r requirments.txt
+(venv) route53> pip install -r requirements.txt
 
 (venv) route53> cd .\app\  
 (venv) app> $env:AWS_ACCESS_KEY_ID='AKIA4******PM2'
